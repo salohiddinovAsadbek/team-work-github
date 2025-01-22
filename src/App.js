@@ -1,18 +1,17 @@
 import React from 'react';
 import Navbar from './Navbar/Navbar';
 import './styles/style.css';
-import { Route, Routes } from 'react-router-dom';
-
+import Home from '../src/home'
+import Choose from "./Choose";
+import Always from "./always";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar /> 
-      <Routes>
-        <Route path="/learn" element=''/>
-        <Route path="/about" element='' />
-        <Route path="/why" element='' />
-      </Routes>
+    <Home/>
+    <Choose />
+      <Always />
     </div>
   );
 }
