@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.choose {
+  display: flex;
+  background-color: #0b4141;
+  height: calc(800 / 14.4 * 1vw);
+  column-gap: calc();
+  overflow: hidden;
+}
+
+.choose-left {
+  width: calc(479 / 14.4 * 1vw);
+  height: calc(597 / 14.4 * 1vw);
+  margin-top: calc(118 / 14.4 * 1vw);
+  margin-left: calc(94 / 14.4 * 1vw);
+}
+
+.choose-left > h1 {
+  font-family: Nunito Sans, sans-serif;
+  font-size: calc(68 / 14.4 * 1vw);
+  font-weight: 900;
+  line-height: calc(72 / 14.4 * 1vw);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: calc(459 / 14.4 * 1vw);
+  color: #ffccbc;
+}
+
+.choose > div:nth-child(2) > img {
+  width: calc(1217 / 14.4 * 1vw);
+  height: calc(872 / 14.4 * 1vw);
+  margin-top: calc(-71 / 14.4 * 1vw);
+}
+
+.choose-left > p {
+  font-family: Nunito Sans, sans-serif;
+  font-size: calc(24 / 14.4 * 1vw);
+  font-weight: 400;
+  line-height: calc(32 / 14.4 * 1vw);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: calc(465 / 14.4 * 1vw);
+  margin-top: calc(32 / 14.4 * 1vw);
+  color: #ffccbc;
+}
+
+.choose-left > button {
+  width: calc(291 / 14.4 * 1vw);
+  height: calc(54 / 14.4 * 1vw);
+  border-radius: calc(100 / 14.4 * 1vw);
+  border: calc(2 / 14.4 * 1vw) solid #ffccbc;
+  background: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: calc(18 / 14.4 * 1vw);
+  font-weight: 700;
+  line-height: calc(24.55 / 14.4 * 1vw);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffccbc;
+  margin-top: calc(48 / 14.4 * 1vw);
+}
