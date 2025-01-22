@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home header {
+  font-size: calc(120 / 14.4 * 1vw);
+  width: calc(500 / 14.4 * 1vw);
+  text-align: center;
+
+  line-height: calc(128 / 14.4 * 1vw);
+  position: absolute;
+  font-family: "Motter Corpus Std";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  color: var(--Secondary, #ffccbc);
+}
+.home p {
+  font-size: calc(120 / 14.4 * 1vw);
+  font: weight 400px;
+  background: var(
+    --Gradient-Primary,
+    linear-gradient(180deg, #0b4141 45.83%, #0b1f1f 45.84%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home .pic {
+  padding-top: calc(160 / 14.4 * 1vw);
+  padding-left: calc(150 / 14.4 * 1vw);
+  position: relative;
+}
+.home p {
+  padding-top: calc(230 / 14.4 * 1vw);
+  position: absolute;
+}
+.home .pic img {
+  width: calc(1200 / 14.4 * 1vw);
+}

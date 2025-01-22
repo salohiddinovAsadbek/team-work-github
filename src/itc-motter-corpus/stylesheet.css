@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Motter Corpus Std';
+    src: url('MotterCorpusStd-Regular.eot');
+    src: local('Motter Corpus Std'), local('MotterCorpusStd-Regular'),
+        url('MotterCorpusStd-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MotterCorpusStd-Regular.woff2') format('woff2'),
+        url('MotterCorpusStd-Regular.woff') format('woff'),
+        url('MotterCorpusStd-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Motter Corpus Std';
+    src: url('MotterCorpusStd-SemiCond.eot');
+    src: local('Motter Corpus Std SemiCondensed'), local('MotterCorpusStd-SemiCond'),
+        url('MotterCorpusStd-SemiCond.eot?#iefix') format('embedded-opentype'),
+        url('MotterCorpusStd-SemiCond.woff2') format('woff2'),
+        url('MotterCorpusStd-SemiCond.woff') format('woff'),
+        url('MotterCorpusStd-SemiCond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Motter Corpus Std Condensed';
+    src: url('MotterCorpusStd-Condensed.eot');
+    src: local('Motter Corpus Std Condensed'), local('MotterCorpusStd-Condensed'),
+        url('MotterCorpusStd-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('MotterCorpusStd-Condensed.woff2') format('woff2'),
+        url('MotterCorpusStd-Condensed.woff') format('woff'),
+        url('MotterCorpusStd-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
