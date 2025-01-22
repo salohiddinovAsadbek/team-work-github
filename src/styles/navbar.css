@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: calc(17 / 14.4 * 1vw) calc(98 / 14.4 * 1vw);
+}
+
+.navbar h1{
+    font-size: calc(26 / 14.4 * 1vw);
+    color: #0B4141;
+    line-height: calc(31 / 14.4 * 1vw);
+    font-weight: 400;
+}
+
+.navbar-right{
+    display: flex;
+    gap: calc(48 / 14.4 * 1vw);
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: calc(24 / 14.4 * 1vw);
+}
+
+.nav-links a{
+    font-size: calc(16 / 14.4 * 1vw);
+    line-height: calc(21.82 / 14.4 * 1vw);
+    color: #0B4141;
+    font-family: "Nunito", serif;
+    text-decoration: none;
+}
+
+.navbar-right button{
+    width: calc(163 / 14.4 * 1vw);
+    height: calc(46 / 14.4 * 1vw);
+    background-color: #0B4141;
+    border-radius: 124px;
+    color: white;
+    color: #FFCCBC;
+    font-size: calc(16 / 14.4 * 1vw);
+    line-height: calc(21 / 14.4 *  1vw);
+    outline: none;
+    font-weight: 600;
+}
