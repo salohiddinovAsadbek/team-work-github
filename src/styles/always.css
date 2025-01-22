@@ -1,0 +1,42 @@
+.always > div {
+  width: calc(464 / 14.4 * 1vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.always > div > h1 {
+  font-family: Nunito Sans, sans-serif;
+  font-size: calc(68 / 14.4 * 1vw);
+  font-weight: 900;
+  line-height: calc(72 / 14.4 * 1vw);
+  color: #ffccbc;
+}
+
+.always > div > p {
+  font-family: Nunito Sans, sans-serif;
+  font-size: calc(24 / 14.4 * 1vw);
+  font-weight: 400;
+  line-height: calc(32 / 14.4 * 1vw);
+  color: #0b4141;
+  margin-top: calc(32 / 14.4 * 1vw);
+}
+
+.mouse {
+  display: flex;
+  gap: calc(16 / 14.4 * 1vw);
+  align-items: center;
+}
+
+.mouse > img {
+  width: calc(16 / 14.4 * 1vw);
+  height: calc(24 / 14.4 * 1vw);
+}
+
+.mouse > p {
+  font-family: Nunito San, sans-serif;
+  font-size: calc(16 / 14.4 * 1vw);
+  font-weight: 600;
+  line-height: calc(22 / 14.4 * 1vw);
+}
