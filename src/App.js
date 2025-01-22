@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Choose />
       <Magic />
-      {/* <Always /> */}
+      <Always />
     </div>
   );
 }
