@@ -6,6 +6,11 @@
   justify-content: center;
 }
 
+.always > img {
+  width: calc(720 / 14.4 * 1vw);
+  height: calc(664 / 14.4 * 1vw);
+}
+
 .always > div > h1 {
   font-family: Nunito Sans, sans-serif;
   font-size: calc(68 / 14.4 * 1vw);
@@ -26,7 +31,9 @@
 .mouse {
   display: flex;
   gap: calc(16 / 14.4 * 1vw);
+  justify-content: start;
   align-items: center;
+  width: 100%;
 }
 
 .mouse > img {
